@@ -41,7 +41,7 @@ const Header = () => {
                               <div className='part-3 d-flex align-items-center ml-auto'>
                                       <Button className='circle mr-3'><FaRegUser/></Button>
                                       <span className='price'>$ 3.40</span>
-                                      <Button className='circle ml-2'><FaRegUser/></Button>
+                                      <Button className='circle ml-2'><IoBagOutline/></Button>
 
                               </div>
 

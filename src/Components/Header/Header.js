@@ -6,6 +6,7 @@ import { Button } from '@mui/material'
 import { IoSearch } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa";
 import { IoBagOutline } from "react-icons/io5";
+import Navigation from '../Navigation/Navigation'
 
 
 const Header = () => {
@@ -32,9 +33,7 @@ const Header = () => {
 
                             <div className='headerSearch ml-3 mr-3'>
                               <input type='text' placeholder='Search for products..........'/>
-                              <Button><IoSearch/>
-
-                              </Button>
+                              <Button><IoSearch/></Button>
                             </div>
                               {/* Header Search Ends Here */}
 
@@ -42,6 +41,7 @@ const Header = () => {
                                       <Button className='circle mr-3'><FaRegUser/></Button>
                                       <span className='price'>$ 3.40</span>
                                       <Button className='circle ml-2'><IoBagOutline/></Button>
+                                      
 
                               </div>
 
@@ -53,25 +53,7 @@ const Header = () => {
               </div>
           </header>
 
-          <nav>
-              <div className='container'>
-
-                  <div className='row'>
-                      <div className='col-sm-3 navPart1'> 
-                        <Button className='allCatTab'>
-                        <span class="text">ALL CATEGORIES</span>
-                        </Button>
-
-                      </div>
-
-                      <div className='col-sm-9 navPart2'> 
-
-                      </div>
-
-                  </div>
-
-              </div>
-          </nav>
+          <Navigation></Navigation>
 
 
 

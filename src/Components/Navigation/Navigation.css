@@ -1,0 +1,10 @@
+nav .allCatTab{background-color: #2bbef9; padding: 10px 15px !important; border-radius: 30px !important;}
+ nav .allCatTab *{color: #fff;}
+ nav .allCatTab:hover{background-color: #2bbef9;}
+ nav .allCatTab .text{font-weight: 600; width: 150px; height: 25px;}
+ nav .allCatTab svg{font-size: 25px;}
+ nav .allCatTab .icon2 svg{font-size: 20px;}
+
+ nav .navPart2 ul{ margin-bottom: 0px;}
+ nav .navPart2 ul li a{text-decoration: none; font-size: 15px; font-weight: 600; color: rgba(0, 0, 0,0.9); text-transform: uppercase; padding: 10px 20px; border-radius: 30px; transition: all 0.2s ease-in-out;}
+ nav .navPart2 ul li a:hover{background-color:#a6dff6; color: white; font-weight: bold;}

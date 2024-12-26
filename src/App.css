@@ -6,6 +6,12 @@
 body{font-family: "Lato", serif;}
 .bg-purple{background-color: rgb(38, 38, 236);}
 
+::-webkit-scrollbar{width: 6px; height: 8px;}
+::-webkit-scrollbar-thumb{background: #ccc;}
+::-webkit-scrollbar-track{background: transparent;}
+
+
+
 .header-Wrapper .top-strip{padding: 8px 0px;}
 .header-Wrapper .top-strip p{color: #fff; font-size: 12px; font-weight: 500;}
 .header-Wrapper .header{width: 100%; height: auto; padding: 15px 0px;}
@@ -22,13 +28,13 @@ body{font-family: "Lato", serif;}
  .countryDrop .ml-auto{opacity: 0.7; }
 
 
- .header .headerSearch{ width: 60%; height: 60%; background-color: #d1d9ee; padding: 2px ; position: relative; border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px !important;}
+ .headerSearch{ width: 60%; height: 60%; background-color: #d1d9ee; padding: 2px ; position: relative; border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px !important;}
 
- .header .headerSearch input{background-color: transparent !important; outline: none !important; font-size: 14px; color: rgba(0,0,0,0.8); width: 100%; height: 40px; border: 0px !important; margin-bottom: 35px;}
+  .headerSearch input{background-color: transparent !important; outline: none !important; font-size: 14px; color: rgba(0,0,0,0.8); width: 100%; height: 40px; border: 0px !important; margin-bottom: 35px;}
 
- .header .headerSearch button{position: absolute; top: 5px; right: 15px; z-index: 100; min-width: 40px !important; height: 40px !important; width: 40px !important; border-radius: 50% !important; color: #000; font-size: 25px;}
+  .headerSearch button{position: absolute; top: 5px; right: 15px; z-index: 100; min-width: 40px !important; height: 40px !important; width: 40px !important; border-radius: 50% !important; color: #000; font-size: 25px;}
 
- .header .part-3 .circle{align-items: center; justify-content: center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px solid rgba(0,0,0,0.2) !important;margin-left: 10px !important; }
+ .part-3 .circle{align-items: center; justify-content: center; min-width: 50px !important; height: 50px !important; width: 50px !important; border-radius: 50% !important; border: 1px solid rgba(0,0,0,0.2) !important;margin-left: 10px !important; }
 
  .circle svg{font-size: 20px !important; margin-bottom: 4px;}
 
@@ -36,8 +42,9 @@ body{font-family: "Lato", serif;}
  .cartTab button{background-color: #fff1ee !important;}
  .cartTab button svg{color: #ea2b0f !important;}
 
-
- nav .allCatTab{background-color: #2bbef9; padding: 8px 20px !important; border-radius: 30px !important;}
- nav .allCatTab *{color: #fff;}
- nav .allCatTab:hover{background-color: #2bbef9;}
- nav .allCatTab .text{font-weight: 600;}
+ .locationModal .MuiPaper-elevation{padding: 25px; position: relative;}
+.locationModal .countryList{margin-bottom: 0px; max-height: 400px; overflow-y: scroll; overflow-x: hidden;}
+.locationModal .countryList li{width: 100%; list-style: none;}
+.locationModal .countryList li button{width: 100%; text-transform: capitalize; color: #000; justify-content: flex-start; padding: 15px 20px;}
+.locationModal .close_{position: absolute; top:20px;right: 20px; color: #000; min-width: 40px; width: 40px; height: 40px;}
+.locationModal .close_ svg{font-size: 22px;}
